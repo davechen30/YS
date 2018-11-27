@@ -1,0 +1,2 @@
+demo 是Vue前端
+yisheng是Django后端
