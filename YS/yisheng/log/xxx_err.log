@@ -1,0 +1,85 @@
+[2018-11-27 10:21:55,622][Thread-6:25004][task_id:django.request][log.py:228][ERROR][Internal Server Error: /modeloperations/getMsg]
+Traceback (most recent call last):
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\program\Anconda\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\ModelOperations.py", line 34, in getMsg
+    datas = modelUtilFactory().getModelUtil(modelName).getPostData(search_field,current_page,page_size)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\modelUtil\userModelUtil.py", line 20, in getPostData
+    data, dataSize = self.getDatas(search_field, current_page, page_size)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\modelUtil\userModelUtil.py", line 61, in getDatas
+    item['groups'] = groups.name
+AttributeError: 'NoneType' object has no attribute 'name'
+[2018-11-27 10:21:58,386][Thread-8:13524][task_id:django.request][log.py:228][ERROR][Internal Server Error: /modeloperations/getMsg]
+Traceback (most recent call last):
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\program\Anconda\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\ModelOperations.py", line 34, in getMsg
+    datas = modelUtilFactory().getModelUtil(modelName).getPostData(search_field,current_page,page_size)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\modelUtil\userModelUtil.py", line 20, in getPostData
+    data, dataSize = self.getDatas(search_field, current_page, page_size)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\modelUtil\userModelUtil.py", line 61, in getDatas
+    item['groups'] = groups.name
+AttributeError: 'NoneType' object has no attribute 'name'
+[2018-11-27 10:22:00,881][Thread-10:20044][task_id:django.request][log.py:228][ERROR][Internal Server Error: /modeloperations/getMsg]
+Traceback (most recent call last):
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\program\Anconda\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\ModelOperations.py", line 34, in getMsg
+    datas = modelUtilFactory().getModelUtil(modelName).getPostData(search_field,current_page,page_size)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\modelUtil\userModelUtil.py", line 20, in getPostData
+    data, dataSize = self.getDatas(search_field, current_page, page_size)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\modelUtil\userModelUtil.py", line 61, in getDatas
+    item['groups'] = groups.name
+AttributeError: 'NoneType' object has no attribute 'name'
+[2018-11-27 10:22:27,919][Thread-14:10348][task_id:django.request][log.py:228][ERROR][Internal Server Error: /modeloperations/getMsg]
+Traceback (most recent call last):
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\program\Anconda\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\ModelOperations.py", line 34, in getMsg
+    datas = modelUtilFactory().getModelUtil(modelName).getPostData(search_field,current_page,page_size)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\modelUtil\userModelUtil.py", line 20, in getPostData
+    data, dataSize = self.getDatas(search_field, current_page, page_size)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\modelUtil\userModelUtil.py", line 61, in getDatas
+    item['groups'] = groups.name
+AttributeError: 'NoneType' object has no attribute 'name'
+[2018-11-27 10:28:25,962][Thread-3:13036][task_id:django.request][log.py:228][ERROR][Internal Server Error: /modeloperations/getMsg]
+Traceback (most recent call last):
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\base.py", line 126, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "D:\program\Anconda\lib\site-packages\django\core\handlers\base.py", line 124, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "D:\program\Anconda\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\ModelOperations.py", line 34, in getMsg
+    datas = modelUtilFactory().getModelUtil(modelName).getPostData(search_field,current_page,page_size)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\modelUtil\userModelUtil.py", line 20, in getPostData
+    data, dataSize = self.getDatas(search_field, current_page, page_size)
+  File "D:\project\django\yisheng\mine\ManagerAPI\baseModelOperations\modelUtil\userModelUtil.py", line 59, in getDatas
+    item['groups'] = groups.name
+AttributeError: 'NoneType' object has no attribute 'name'
